@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(210, 241, 175);
+    margin: 0;
+    padding: 0%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9lpqEH-UnBI3PAYhpUhN88mf_fstcC2f8UA&s);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+
+}
+
+h1 {
+    text-align: center;
+    color: brown;
+}
+
+header {
+    background: #fcbd60;
+    margin: 0px;
+    position: sticky;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVpoKi01fPqiCSCT_ClDBvJxN6zhtvVnlylg&s);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.ritesh {
+    height: 180px;
+
+    button {
+        background-color: blue;
+
+    }
+
+
+    a {
+        width: 50px;
+        /* background-color: blue; */
+        height: 200px;
+        color: aliceblue;
+
+    }
+
+
+}
+
+.ritesh3 {
+    height: 100px;
+    text-align: center;
+    width: 100%;
+    /* background-color: rgb(212, 233, 233, 0.7); */
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+
+    button {
+        background-color: blue;
+        color: aliceblue;
+        border-radius: 10px;
+
+    }
+}
+
+.ritesh1 {
+
+    margin-top: auto;
+    height: 200px;
+}
+
+.ritesh2 {
+    background-color: black;
+    color: aliceblue;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+button:hover {
+    background: linear-gradient(90deg, rgb(255, 94, 98), rgb(255, 153, 102));
+    transform: scale(1.05);
+}
+
+footer {
+    position: static;
+
+}
