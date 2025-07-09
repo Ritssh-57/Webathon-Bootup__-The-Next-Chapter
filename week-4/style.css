@@ -1,0 +1,119 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    /* background-color: #dbb9b9; */
+    color: #f19d9d;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    /* background-color: #dbb9b9; */
+    padding: 20px;
+    /* border-bottom: 2px solid #333; */
+    text-align: left;
+    /* box-shadow: 0 1px 40px rgba(143, 226, 11, 0.1); */
+    margin: auto;
+}
+nav {
+      display: flex;
+      gap: 100px;
+      text-align: center;
+      top: 30px;
+      
+    }
+     .filters {
+      display: flex;
+      gap: 50px;
+      margin: 20px;
+      flex-wrap: wrap;
+    }
+    .filters button {
+      padding: 8px 12px;
+      border: 1px solid #ccc;
+      background-color: #ee99ef;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+
+main {
+    padding: 40px 20px;
+    
+    /* bottom: 00px; */ 
+    /* background-image: url(); */
+
+}
+
+
+
+#story-section {
+    background-color: #222;
+    width: 100%;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 0 20px #730fd7;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMuA9Twd2iS2V3851VOEnFQ3fmDpe0jYvosw&s);
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #ac1069;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+     box-shadow: 0 0 20px #1af9db;
+     
+}
+
+button:hover {
+    background-color: #e03e00;
+}
+
+ .top-charts {
+      padding: 20px;
+      gap: 100px;
+    }
+    .top-charts h2 {
+      margin-bottom: 15px;
+      color: #000;
+    }
+    .app-list {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+    .app-item {
+      background-color: #d3f9f5;
+      color: #000;
+      padding: 15px;
+      border-radius: 10px;
+      width: 150px;
+      text-align: center;
+      box-shadow: 0 0 20px #e2f20b;
+    }
+    .app-item img {
+      width: 100px;;
+      height: 100px;;
+      border-radius: 5px;
+    }
+    .app-item h4 {
+      margin: 10px 0 5px;
+      font-size: 14px;
+    }
+    .app-item span {
+      font-size: 13px;
+      color: gray;
+    }
+
+footer {
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #1f1f1f;
+    color: #aaa;
+     box-shadow: 0 0 20px #037e22;
+}
